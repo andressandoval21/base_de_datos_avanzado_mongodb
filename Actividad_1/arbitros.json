@@ -1,0 +1,27 @@
+[
+    {
+        "_id": 1,
+        "nombre": "Elver Suarez",
+        "pais": "Colombia"
+    },
+    {
+        "_id": 2,
+        "nombre": "Fraquin Ramos",
+        "pais": "Canada"
+    },
+    {
+        "_id": 3,
+        "nombre": "Nicantor Lozano",
+        "pais": "U.S"
+    },
+    {
+        "_id": 4,
+        "nombre": "Marce Mendieta",
+        "pais": "Espana"
+    },
+    {
+        "_id": 5,
+        "nombre": "Juan Pantalla",
+        "pais": "China"
+    }
+]

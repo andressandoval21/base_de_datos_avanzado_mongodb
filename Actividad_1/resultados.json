@@ -1,0 +1,99 @@
+[
+    {
+        "_id": 1,
+        "fases": 1,
+        "puntaje": [
+            {
+                "equipo": "Colombia",
+                "puntos": 0,
+                "faltas": 0
+            },
+            {
+                "equipo": "Brasil",
+                "puntos": 2,
+                "faltas": 0
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "fases": 1,
+        "puntaje": [
+            {
+                "equipo": "Argentina",
+                "puntos": 2,
+                "faltas": 1
+            },
+            {
+                "equipo": "Uruguay",
+                "puntos": 0,
+                "faltas": 3
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "fases": 1,
+        "puntaje": [
+            {
+                "equipo": "Argentina",
+                "puntos": 1,
+                "faltas": 0
+            },
+            {
+                "equipo": "Venezuela",
+                "puntos": 1,
+                "faltas": 0
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "fases": 1,
+        "puntaje": [
+            {
+                "equipo": "Colombia",
+                "puntos": 2,
+                "faltas": 1
+            },
+            {
+                "equipo": "Venezuela",
+                "puntos": 0,
+                "faltas": 1
+            }
+        ]
+    },
+    {
+        "_id": 5,
+        "fases": 1,
+        "puntaje": [
+            {
+                "equipo": "Uruguay",
+                "puntos": 0,
+                "faltas": 1
+            },
+            {
+                "equipo": "Brasil",
+                "puntos": 2,
+                "faltas": 2
+            }
+        ]
+    },
+
+    {
+        "_id": 6,
+        "fases": 2,
+        "puntaje": [
+            {
+                "equipo": "Argentina",
+                "puntos": 2
+                
+            },
+            {
+                "equipo": "Brasil",
+                "puntos": 0
+            }
+        ]
+    }
+
+]
