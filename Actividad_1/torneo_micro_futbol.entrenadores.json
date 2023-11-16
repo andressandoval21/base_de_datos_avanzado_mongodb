@@ -1,0 +1,25 @@
+[{
+  "_id": 1,
+  "nombre": "Cantor lindo",
+  "pais": "Colombia"
+},
+{
+  "_id": 2,
+  "nombre": "Fernandiño Ferdiño",
+  "pais": "Brasil"
+},
+{
+  "_id": 3,
+  "nombre": "Gerrado Farrizo",
+  "pais": "Uruguay"
+},
+{
+  "_id": 4,
+  "nombre": "Alirio Gatuso",
+  "pais": "Argentina"
+},
+{
+  "_id": 5,
+  "nombre": "Duban Esnider",
+  "pais": "Venezuela"
+}]
