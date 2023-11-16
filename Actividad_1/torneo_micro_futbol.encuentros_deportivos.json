@@ -1,285 +1,272 @@
-[{
-  "_id": 1,
-  "lugarEncuentro": "la bombonera",
-  "fecha_hora": "2023-11-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 4,
-      "nombre": "Marce Mendieta"
-    }
-  ],
-  "partido": [
-    "Colombia",
-    "Brasil"
-  ]
-},
-{
-  "_id": 2,
-  "lugarEncuentro": "Campin",
-  "fecha_hora": "2023-12-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Argentina",
-    "Uruguy"
-  ]
-},
-{
-  "_id": 3,
-  "lugarEncuentro": "Cap Noup",
-  "fecha_hora": "2023-13-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Argentina",
-    "Venezuela"
-  ]
-},
-{
-  "_id": 4,
-  "lugarEncuentro": "Cap Noup",
-  "fecha_hora": "2023-13-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Colombia",
-    "Venezuela"
-  ]
-},
-{
-  "_id": 5,
-  "lugarEncuentro": "Metropolitano",
-  "fecha_hora": "2023-14-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Argentina",
-    "Brasil"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6554548d72e79df0fcc6a73b"
+[
+  {
+    "_id": 1,
+    "lugarEncuentro": "la bombonera",
+    "fecha_hora": "2023-11-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 4,
+        "nombre": "Marce Mendieta"
+      }
+    ],
+    "partido": [
+      "Colombia",
+      "Brasil"
+    ]
   },
-  "id": 6,
-  "lugarEncuentro": "Campin",
-  "fecha_hora": "2023-15-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Colombia",
-    "Uruguy"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6554548d72e79df0fcc6a73c"
+  {
+    "_id": 2,
+    "lugarEncuentro": "Campin",
+    "fecha_hora": "2023-12-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Argentina",
+      "Uruguy"
+    ]
   },
-  "id": 7,
-  "lugarEncuentro": "Cap Noup",
-  "fecha_hora": "2023-16-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Venezuela",
-    "Brasil"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6554548d72e79df0fcc6a73d"
+  {
+    "_id": 3,
+    "lugarEncuentro": "Cap Noup",
+    "fecha_hora": "2023-13-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Argentina",
+      "Venezuela"
+    ]
   },
-  "id": 8,
-  "lugarEncuentro": "Metropolitano",
-  "fecha_hora": "2023-16-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Venezuela",
-    "Uruguy"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6554548d72e79df0fcc6a73e"
+  {
+    "_id": 4,
+    "lugarEncuentro": "Cap Noup",
+    "fecha_hora": "2023-13-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Colombia",
+      "Venezuela"
+    ]
   },
-  "id": 9,
-  "lugarEncuentro": "Cap Noup",
-  "fecha_hora": "2023-17-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Argentina",
-    "Colombia"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6554548d72e79df0fcc6a73f"
+  {
+    "_id": 5,
+    "lugarEncuentro": "Metropolitano",
+    "fecha_hora": "2023-14-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Argentina",
+      "Brasil"
+    ]
   },
-  "id": 10,
-  "lugarEncuentro": "Cap Noup",
-  "fecha_hora": "2023-16-08 10:00:00",
-  "arbitros": [
-    {
-      "id": 3,
-      "nombre": "Nicantor Lozano"
-    },
-    {
-      "id": 1,
-      "nombre": "Elver Suarez"
-    },
-    {
-      "id": 5,
-      "nombre": "Juan Pantalla"
-    },
-    {
-      "id": 2,
-      "nombre": "Fraquin Ramos"
-    }
-  ],
-  "partido": [
-    "Uruguy",
-    "Brasil"
-  ]
-}]
+  {
+    "_id": 6,
+    "lugarEncuentro": "Campin",
+    "fecha_hora": "2023-15-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Colombia",
+      "Uruguy"
+    ]
+  },
+  {
+    "_id": 7,
+    "lugarEncuentro": "Cap Noup",
+    "fecha_hora": "2023-16-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Venezuela",
+      "Brasil"
+    ]
+  },
+  {
+    "_id": 8,
+    "lugarEncuentro": "Metropolitano",
+    "fecha_hora": "2023-16-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Venezuela",
+      "Uruguy"
+    ]
+  },
+  {
+    "_id": 9,
+    "lugarEncuentro": "Cap Noup",
+    "fecha_hora": "2023-17-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Argentina",
+      "Colombia"
+    ]
+  },
+  {
+    "_id": 10,
+    "lugarEncuentro": "Cap Noup",
+    "fecha_hora": "2023-16-08 10:00:00",
+    "arbitros": [
+      {
+        "id": 3,
+        "nombre": "Nicantor Lozano"
+      },
+      {
+        "id": 1,
+        "nombre": "Elver Suarez"
+      },
+      {
+        "id": 5,
+        "nombre": "Juan Pantalla"
+      },
+      {
+        "id": 2,
+        "nombre": "Fraquin Ramos"
+      }
+    ],
+    "partido": [
+      "Uruguy",
+      "Brasil"
+    ]
+  }
+]
