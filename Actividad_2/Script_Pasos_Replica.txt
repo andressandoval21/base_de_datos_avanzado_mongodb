@@ -1,0 +1,63 @@
+Primer Paso creamos los nodos para prueba.
+	ReplicaSet = new ReplSetTest ({name: "TorneoReplica", nodes: 3})
+
+Segundo paso la configuración de cada nodo del grupo de réplica.
+	ReplicaSet.startSet()
+
+Tercer Paso activar la réplica.
+	ReplicaSet.initiate()
+
+Cuarto Paso. Abrir consola nueva para la conexión nodo primario
+	conn=new Mongo("DESKTOP-C369BKE:20000")
+
+Quinto Paso invocar la base de datos creada.
+	testDB=conn.getDB("torneo_micro_futbol")
+
+Sexto Paso verificar el estado del nodo si es primario.
+	testDB.isMaster()
+
+Séptimo Paso insertar documento de una colección desde nodo primario.
+	testDB.arbitros.insert(
+			{
+				"_id": 6,
+ 				 "nombre": "Camila Mendieta",
+ 				 "pais": "Francia"
+			});
+
+Octavo Paso verificación del documento insertado.
+	testDB.arbitros.find()
+
+Noveno Paso nueva conexión nodo secundario.
+	connSecondary = new Mongo("DESKTOP-C369BKE:20001")
+
+invocar la base de datos creada.
+	secondaryTestDB = connSecondary.getDB("torneo_micro_futbol")
+
+Dar permisos para consulta de información.
+	connSecondary.setSecondaryOk()
+
+verificar que la replicación se esté cumpliendo en los nodos. 
+	secondaryTestDB.arbitros.find()
+
+Decimo Paso conexión al nodo primario para realizar prueba de desconexión del primario.
+conexión nodo primario
+	connPrimary = new Mongo("localhost:20000")
+
+invocar la base de datos creada.
+	primaryDB = connPrimary.getDB("torneo_micro_futbol")
+
+Generar detención al nodo principal.
+	primaryDB.adminCommand({shutdown : 1})
+
+Onceavo paso conexión nodo secundario.
+	connNewPrimary = new Mongo("localhost:20001")
+
+invocar la base de datos creada.
+	newPrimaryDB = connNewPrimary.getDB("torneo_micro_futbol")
+
+probar estado del nodo que haya pasado de secundario a primario.
+	newPrimaryDB.isMaster()
+
+finalizar la réplica.
+	ReplicaSet.stopSet()
+
