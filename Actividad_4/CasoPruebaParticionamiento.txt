@@ -1,0 +1,34 @@
+Comandos:
+
+//paso 1. Creación del grupo de particionado para pruebas
+cluster=new ShardingTest ({shards: 3, chunksize:1})
+
+//paso 2. Inserción de datos sobre el balanceador
+db = (new Mongo("localhost:20006")).getDB("torneo_micro_futbol") 
+
+for (i= 0; i < 100000; i++) {
+db.arbitros.insert({nombre : "arbitros"
++i, pais : "npais" +i});
+}
+
+//paso 3. Comprobación de la distribución de datos en los nodos
+shard1 = new Mongo("localhost:20000")
+
+shard1DB = shard1.getDB("torneo_micro_futbol") 
+
+shard1DB.arbitros.count()
+
+shard2 = new Mongo("localhost:20001")
+
+shard2DB = shard2.getDB("torneo_micro_futbol") 
+
+shard2DB.arbitros.count()
+
+shard3 = new Mongo("localhost:20002")
+
+shard3DB = shard3.getDB("torneo_micro_futbol") 
+
+shard3DB.arbitros.count()
+
+//paso 4. Activación del Sharding en consola de balanceador
+sh.status

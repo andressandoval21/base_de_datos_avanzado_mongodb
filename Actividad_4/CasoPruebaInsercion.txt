@@ -1,0 +1,15 @@
+Comandos:
+
+//paso 1. Conexión con el puerto en el que se encuentra la base de datos  
+db = (new Mongo("localhost:20006")).getDB("torneo_micro_futbol") 
+
+//paso 2. Inserción a la colección de datos
+for (i= 0; i < 100000; i++) {
+db.arbitros.insert({nombre : "arbitros"
++i, pais : "npais" +i});
+}
+
+//paso 3. Revisamos en consola de segundo plano la ejecución
+
+//paso 4. Validar la cantidad de documentos en la colección
+db.arbitros.count()

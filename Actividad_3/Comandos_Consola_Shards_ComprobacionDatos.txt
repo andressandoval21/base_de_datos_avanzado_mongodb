@@ -1,0 +1,30 @@
+Comandos:
+
+Distribución de datos en los nodos
+
+//Conectarnos al shar1 por el puerto 20000
+shard1 = new Mongo("localhost:20000") 
+
+//Abrimos la conexion a la base de datos
+shard1DB = shard1.getDB("torneo_micro_futbol")  
+
+//Verificamos la insercción de los registros
+shard1DB.arbitros.count()
+
+//Conectarnos al shar2 por el puerto 20001
+shard2 = new Mongo("localhost:20001") 
+
+//Abrimos la conexion a la base de datos
+shard2DB = shard2.getDB("torneo_micro_futbol")  
+
+//Verificamos la insercción de los registros
+shard2DB.arbitros.count()
+
+//Conectarnos al shar3 por el puerto 20002
+shard3 = new Mongo("localhost:20002") 
+
+//Abrimos la conexion a la base de datos
+shard3DB = shard3.getDB("torneo_micro_futbol")  
+
+//Verificamos la insercción de los registros
+shard3DB.arbitros.count()

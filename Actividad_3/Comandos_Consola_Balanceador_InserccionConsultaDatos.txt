@@ -1,0 +1,21 @@
+Comandos:
+
+
+
+insercción de datos en balanceador
+
+
+//abrimos la conexion a la base de datos por el puerto 20006
+db = (new Mongo(“localhost:20006”)).getDB(“torneo_micro_futbol”) 
+
+//Realizamos la insercción de 1000000 a la colección de arbitros
+for (i= 0; i < 100000; i++) {
+db.arbitros.insert({nombre : "arbitros"
++i, pais : "npais" +i});
+}
+
+//Verificamos la insercción en la colección de arbitros
+db.arbitros.count()
+
+//Comprobar listado de shards activos
+db.adminCommand( { listShards: 1 } )

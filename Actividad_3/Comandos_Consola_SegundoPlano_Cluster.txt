@@ -1,0 +1,8 @@
+Comandos:
+
+//crear cluster con la configuraxión de shards
+cluster = new ShardingTest ({shards: 3, chunksize:1})
+
+//en el caso de detener el cluster se usa el comando 
+cluster.stop()
+
