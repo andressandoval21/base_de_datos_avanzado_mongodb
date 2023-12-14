@@ -1,0 +1,12 @@
+Comandos:
+
+Activar sharding
+
+//Ya con la consola abierta del balanceador, activamos el sharding
+sh.enableSharding("torneo_micro_futbol")
+
+//habilitar clave para usar el shard en la colección arbitros
+db.arbitros.ensureIndex({arbitro : 1})
+
+//conectar colección con la de la base de datos y la colección deseada para el shard
+sh.shardCollection("torneo_micro_futbol.arbitros", {arbitro: 1})

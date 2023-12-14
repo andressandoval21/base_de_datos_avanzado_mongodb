@@ -1,0 +1,13 @@
+Comandos:
+
+//paso 1. Creación del grupo de particionado  
+
+
+//paso 2. Verificacion de creación de los shards
+
+
+//paso 3. Verificar las shads activos
+db.adminCommand( { listShards: 1 } )
+
+//paso 4.  Parada del clúster de particionado de datos
+cluster.stop()
